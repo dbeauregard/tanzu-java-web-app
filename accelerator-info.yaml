@@ -1,0 +1,21 @@
+id: 6bdee7d3-89d1-4e8c-82bd-ede42673ce3f
+timestamp: 2023-12-12T21:49:27.913Z
+source: VSCODE
+username: dbeauregard
+accelerator:
+  name: tanzu-java-web-app
+fragments:
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: devcontainer
+  - name: java-version
+  - name: tap-workload
+options:
+  projectName: tanzu-java-web-app
+  buildTool: maven
+  ide: intellij
+  springBootVersion: 3.1
+  nativeBuild: false
+  javaVersion: 17
+  includeBuildToolWrapper: true
+  includeDevContainer: false
